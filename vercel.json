@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "account-inquiry.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/account-inquiry", "dest": "account-inquiry.js" }
+  ]
+}
